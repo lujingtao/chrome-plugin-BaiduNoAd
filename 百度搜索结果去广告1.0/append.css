@@ -1,0 +1,20 @@
+/* baidu css */
+.c-container /deep/ .c-containe{margin:0; padding:0; border:0}
+.c-container /deep/ .c-container .t{ height:0; overflow:hidden; }
+.c-container /deep/ .c-container .c-abstract{ height:0; overflow:hidden; }
+.c-container /deep/ .c-container .f13{ height:auto; background:#eee }
+
+
+#content_left .result  .result{margin:0; padding:0; border:0}
+#content_left .result  .result .t{ height:0; overflow:hidden; }
+#content_left .result  .result .c-abstract{ height:0; overflow:hidden; }
+#content_left .result  .result .f13{ height:auto; background:#eee }
+
+#content_left .general_image_pic,#content_left .c-span6,#content_left .op-tieba-general-mainpic{ display:none; }
+#content_left a,#content_left  em{ text-decoration:none !important }
+.c-abstract,.c-span18{color:#999}
+.c-container{ border-bottom:1px solid #ccc; margin-top:15px; padding-bottom:15px; }
+.c-container .c-row em,.c-container .c-abstract em{ color:#666 }
+#wrapper_wrapper #rs {top:0}
+
+
