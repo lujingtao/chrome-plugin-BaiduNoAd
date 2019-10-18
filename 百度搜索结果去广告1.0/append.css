@@ -1,20 +1,21 @@
 /* baidu css */
-.c-container /deep/ .c-containe{margin:0; padding:0; border:0}
-.c-container /deep/ .c-container .t{ height:0; overflow:hidden; }
-.c-container /deep/ .c-container .c-abstract{ height:0; overflow:hidden; }
-.c-container /deep/ .c-container .f13{ height:auto; background:#eee }
+#content_left>div[style='display:block !important;visibility:visible !important']{margin:0; padding:0; border:0}
+#content_left>div[style='display:block !important;visibility:visible !important']>div{ height:0; overflow:hidden; }
+#content_left>div[style='display:block !important;visibility:visible !important']>div:last-child{ height:auto; background:#eee }
 
+#content_left>div[class="result c-container"]{margin:0; padding:0; border:0}
+#content_left>div[class="result c-container"] .t{ height:0; overflow:hidden; }
+#content_left>div[class="result c-container"] .c-abstract{ height:0; overflow:hidden; }
+#content_left>div[class="result c-container"] .f13{ height:auto; background:#eee }
 
-#content_left .result  .result{margin:0; padding:0; border:0}
-#content_left .result  .result .t{ height:0; overflow:hidden; }
-#content_left .result  .result .c-abstract{ height:0; overflow:hidden; }
-#content_left .result  .result .f13{ height:auto; background:#eee }
-
-#content_left .general_image_pic,#content_left .c-span6,#content_left .op-tieba-general-mainpic{ display:none; }
+#content_left .general_image_pic,#content_left .c-span6,#content_left .op-tieba-general-mainpic,#content_left .c-span3{ display:none; }
 #content_left a,#content_left  em{ text-decoration:none !important }
-.c-abstract,.c-span18{color:#999}
+.c-abstract,.c-span18,.c-span-last{color:#666}
 .c-container{ border-bottom:1px solid #ccc; margin-top:15px; padding-bottom:15px; }
-.c-container .c-row em,.c-container .c-abstract em{ color:#666 }
-#wrapper_wrapper #rs {top:0}
+.c-container .c-row em,.c-container .c-abstract em{ color:#333 }
+.c-container a em{color:#c00 !important}
 
-
+/* 相关搜索 */
+#wrapper_wrapper #rs{position:absolute;top: 0;left: 689px; padding:20px; border:1px solid #e1e1e1; width:auto }
+#wrapper_wrapper #rs a{ text-decoration:none; font-size:13px}
+#wrapper_wrapper #content_right{margin-top: 204px;}
